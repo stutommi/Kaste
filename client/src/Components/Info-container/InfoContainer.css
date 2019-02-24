@@ -1,0 +1,47 @@
+.plant-container {
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    /* min-height: 85vh; */
+    background-image: linear-gradient(to right, hsla(50, 50%, 70%, 1), hsla(85, 50%, 70%, 1));
+    font-size: 18px;
+    flex-wrap: wrap;
+    vertical-align: middle;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.error-message {
+    font-size: 18px;
+    color: whitesmoke;
+    background-color: hsla(0, 80%, 50%, 1);
+    border: 1px solid darkgrey;
+    text-decoration: none;
+    padding: 1em;
+    border-radius: 10px;
+    animation: zoom 6s linear 2s infinite;
+    position: relative;
+    width: 100%;
+}
+
+
+@keyframes zoom {
+    0%   {font-size: 18px}
+    1%  {font-size: 19px}
+    3%  {font-size: 18px}
+    5%  {font-size: 19px}
+    7%  {font-size: 18px}
+  }
+  
+  
+  /* The element to apply the animation to */
+  div {
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
