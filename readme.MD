@@ -11,5 +11,3 @@ It's build using technologies from MERN-stack.
 
 - Feel free to look around the code. I've changed server.js with duplicate that hides sensitive information! If you have any tips for improvement, I'm more than happy to hear them. :)
 
-- Tommi
-
